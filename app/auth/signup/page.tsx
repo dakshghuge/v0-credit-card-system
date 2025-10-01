@@ -24,7 +24,7 @@ export default function SignUpPage() {
   return (
     <main className="py-10">
       <div className="mx-auto max-w-md px-4">
-        <h1 className="text-2xl font-semibold text-center mb-6">Create Admin Account</h1>
+        <h1 className="text-2xl font-semibold text-center mb-6">Create User Account</h1>
         <form onSubmit={onSubmit} className="grid gap-4 bg-card p-6 rounded-md border">
           <div className="grid gap-1.5">
             <Label htmlFor="name">Full Name</Label>

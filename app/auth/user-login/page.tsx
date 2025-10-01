@@ -70,6 +70,14 @@ export default function UserLoginPage() {
             Admin Login
           </Link>
         </p>
+
+        {/* Add sign up link for users */}
+        <p className="text-sm text-muted-foreground">
+          New here?{" "}
+          <Link href="/auth/signup" className="underline hover:no-underline">
+            Sign up
+          </Link>
+        </p>
       </form>
     </main>
   )
